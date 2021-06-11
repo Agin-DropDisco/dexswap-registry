@@ -53,7 +53,7 @@
       gas: 9000000,	
       gasPrice: 10000000000 
     },
-    moonalpha: {	
+    moonbase: {	
      provider: () => new HDWalletProvider([privateKey], "https://rpc.testnet.moonbeam.network"),
       network_id: '1287',	
       gas: 0,	
@@ -65,7 +65,7 @@
       gas: 9000000,	
       gasPrice: 1000000000 //1 Gwei	
     },	
-    matic: {	
+    mumbai: {	
       provider: () => new HDWalletProvider([privateKey],"https://rpc-mumbai.matic.today"),
       network_id: '80001',	
       gas: 9000000,	

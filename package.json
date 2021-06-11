@@ -17,8 +17,8 @@
     "compile": "yarn truffle compile",
     "deploy:rinkeby": "yarn truffle migrate --network rinkeby",
     "deploy:ropsten": "yarn truffle migrate --network ropsten",
-    "deploy:matic": "yarn truffle migrate --network matic",
-    "deploy:moonalpha": "yarn truffle migrate --network moonalpha",
+    "deploy:mumbai": "yarn truffle migrate --network mumbai",
+    "deploy:moonbase": "yarn truffle migrate --network moonbase",
     "test": "npx truffle test",
     "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
     "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
